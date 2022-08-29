@@ -87,9 +87,10 @@ source "proxmox" "ubuntu-server-focal" {
   # PACKER Autoinstall Settings
   http_directory = "http"
   # (Optional) Bind IP Address and Port
-  http_bind_address = "0.0.0.0"
-  http_port_min = 8802
-  http_port_max = 8802
+  #http_bind_address = "0.0.0.0"
+  http_bind_address = "172.16.10.101"
+  #http_port_min = 8802
+  #http_port_max = 8802
 
   ssh_username = "tan"
 
